@@ -1,0 +1,9 @@
+#Data types
+- Drug-Target interactions with dimension 708 × 15121.
+- Drug-Drug structural similarities with dimension 708 × 708.
+- Drug-Drug interactions with dimension 708 × 708.
+- Drug-Disease associations with dimension 708 × 5603.
+- Drug-Side effect associations with dimension 708 × 4192.
+- Target-Target interactions with dimension 1512 × 1512.
+- Target-Target sequence similarities with dimension 1512 × 1512.
+- Target-Disease associations with dimension 1512 × 5603.
