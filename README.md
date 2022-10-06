@@ -6,3 +6,34 @@ This article proposes two predictive methods of drug-target interactions. It foc
  
 -	The final aim of this work is to develop two efficient and accurate computational methods (IEDTI and DEDTI) for DTI prediction. In addition to DTI prediction, IEDTI produces embeddings of drugs and targets to have meaningful representations of the objects and more efficient computation. Both methods utilize the deep neural network to predict DTIs best.
 
+
+
+# Train IEDTI and DIDTI models
+
+#### Obtain *direct* embeddings
+
+`python direct_embeddings.py --data_path data_folder_name`
+
+
+
+#### Obtain *indirect* embeddings
+
+if you want to see different clusters with details of clusters members:
+
+`python indirect_embeddings.py --data_path data_folder_name --num_of_protein_clusters n --num_of_drug_clusters m --find_best_k True`
+
+else:
+
+`python indirect_embeddings.py --data_path data_folder_name --num_of_protein_clusters n --num_of_drug_clusters m`
+
+where n is the int number of protein clusters and m is the int number of drug clusters.
+ 
+ 
+#### Train IEDTI
+
+`python IEDTI.py --data_path data_folder_name --ratio 3 --result_path results_folder_name`
+
+
+#### Train DEDTI
+
+`python DEDTI.py --data_path data_folder_name --ratio 3 --result_path results_folder_name`
