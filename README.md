@@ -8,7 +8,7 @@ This article proposes two predictive methods of drug-target interactions. It foc
 
 
 
-# Train IEDTI and DIDTI models
+# Train IEDTI and DEDTI models
 
 #### Obtain *direct* embeddings
 
