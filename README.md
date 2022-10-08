@@ -20,7 +20,7 @@ python direct_embeddings.py --data_path data_folder_name
 
 #### Obtain *indirect* embeddings
 
-if you want to see different clusters with details of clusters members:
+Kmeans can be applied considering different numbers as K. If you want to see the result of choosing different numbers as K with details of each clusters' members:
 
 ```bash
 python indirect_embeddings.py --data_path data_folder_name --num_of_protein_clusters n --num_of_drug_clusters m --find_best_k True
