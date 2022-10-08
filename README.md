@@ -46,3 +46,13 @@ python IEDTI.py --data_path data_folder_name --ratio 3 --result_path results_fol
 ```bash
 python DEDTI.py --data_path data_folder_name --ratio 3 --result_path results_folder_name
 ```
+
+### Citation
+
+```bash
+@article{zabihian2022dedti,
+  title={DEDTI vs IEDTI: Efficient and Predictive Models of Drug-Target Interactions},
+  author={Zabihian, Arash and Sayyad, Faeze Zakaryapour and Hashemi, Seyyed Morteza and Hooshmand, Mohsen and Gharaghani, Sajjad},
+  year={2022}
+}
+```
