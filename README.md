@@ -1,5 +1,5 @@
 # IEDTI-DEDTI
-This article proposes two predictive methods of drug-target interactions. It focuses on three aims. 
+This [article](https://www.researchsquare.com/article/rs-2070026/latest.pdf) proposes two predictive methods of drug-target interactions. It focuses on three aims. 
 -	First, this paper criticizes using inner product-based matrix factorization to predict drug-target interactions (DTIs). Matrix factorization is a linear operation and suffers from some drawbacks. We mention some of these drawbacks, which make matrix factorization incapable of correctly predicting drug-target interaction. We explain that matrix factorization cannot locate more complex and nonlinear relationships among drugs and targets. 
 
 -	The second aim of this research is to provide dense representations of drugs and targets. 
