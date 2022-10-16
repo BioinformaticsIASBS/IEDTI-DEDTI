@@ -9,14 +9,19 @@ This [article](https://www.researchsquare.com/article/rs-2070026/latest.pdf) pro
 
 
 # Train IEDTI and DEDTI models
+We used Python 3.7.14 and CUDA Version: 11.2 in our experiments.
 
 #### Obtain *direct* embeddings
-
+To obtain direct embeddings you should run command in terminal as follows:
 ```bash
 python direct_embeddings.py --data_path data_folder_name
 ```
 
-
+Example:
+```bash
+python direct_embeddings.py --data_path 'Data'
+```
+Please note that the embeddings will be saved inside your dataset folder.
 
 #### Obtain *indirect* embeddings
 
@@ -35,7 +40,7 @@ where n is the int number of protein clusters and m is the int number of drug cl
  
  
 #### Train IEDTI
-
+Please note that the ratio number (which is 3) can be changed into any other number regarding your research purpose.
 ```bash
 python IEDTI.py --data_path data_folder_name --ratio 3 --result_path results_folder_name
 ```
