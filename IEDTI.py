@@ -19,8 +19,8 @@ def train_iedti_model(path, ratio, result_path):
   
   #Reading data
 
-  protein_representations = np.loadtxt(path+'/protein_representations.txt')
-  drug_representations = np.loadtxt(path+'/drug_representations.txt')
+  protein_representations = np.loadtxt(path+'/protein_triplet_representations.txt')
+  drug_representations = np.loadtxt(path+'/drug_triplet_representations.txt')
 
   print('np.shape(protein_representations): ', np.shape(protein_representations))
   print('np.shape(drug_representations): ', np.shape(drug_representations))
