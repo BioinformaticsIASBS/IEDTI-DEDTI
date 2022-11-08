@@ -123,7 +123,7 @@ def save_direct_embeddings(path):
 
   # get direct embeddings of drugs and save it
   mixed_drugs = mix_matrix([similarity_matrix_drug_se, similarity_matrix_drug_disease, similarity_matrix_drug, drug_drug], 708, 'sum')
-  np.savetxt(fname=path+ 'mixed_drug_se_disease_drug_4matrix_708size.txt' , X = mixed_drugs)
+  np.savetxt(fname=path+ '/mixed_drug_se_disease_drug_4matrix_708size.txt' , X = mixed_drugs)
 
   # find similarities for proteins 
   # similarity between protein and disease 
