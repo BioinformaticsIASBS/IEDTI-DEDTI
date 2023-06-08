@@ -1,5 +1,6 @@
 # IEDTI-DEDTI
-This [article](https://www.researchsquare.com/article/rs-2070026/latest.pdf) proposes two predictive methods of drug-target interactions. It focuses on three aims. 
+
+This [article](https://doi.org/10.1038/s41598-023-36438-0) proposes two predictive methods of drug-target interactions. It focuses on three aims. 
 -	First, this paper criticizes using inner product-based matrix factorization to predict drug-target interactions (DTIs). Matrix factorization is a linear operation and suffers from some drawbacks. We mention some of these drawbacks, which make matrix factorization incapable of correctly predicting drug-target interaction. We explain that matrix factorization cannot locate more complex and nonlinear relationships among drugs and targets. 
 
 -	The second aim of this research is to provide dense representations of drugs and targets. 
@@ -55,9 +56,10 @@ python DEDTI.py --data_path data_folder_name --ratio 3 --result_path results_fol
 ### Citation
 
 ```bash
-@article{zabihian2022dedti,
-  title={DEDTI vs IEDTI: Efficient and Predictive Models of Drug-Target Interactions},
-  author={Zabihian, Arash and Sayyad, Faeze Zakaryapour and Hashemi, Seyyed Morteza and Hooshmand, Mohsen and Gharaghani, Sajjad},
-  year={2022}
+@article{zabihian2023dedti,
+  title={DEDTI versus IEDTI: efficient and predictive models of drug-target interactions.},
+  author={Zabihian, A., Sayyad, F.Z., Hashemi, S.M. et al.},
+  year={2023}
+  doi = { Sci Rep 13, 9238 (2023). https://doi.org/10.1038/s41598-023-36438-0}
 }
 ```
