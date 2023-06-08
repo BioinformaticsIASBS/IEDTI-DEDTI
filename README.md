@@ -56,10 +56,24 @@ python DEDTI.py --data_path data_folder_name --ratio 3 --result_path results_fol
 ### Citation
 
 ```bash
-@article{zabihian2023dedti,
-  title={DEDTI versus IEDTI: efficient and predictive models of drug-target interactions.},
-  author={Zabihian, A., Sayyad, F.Z., Hashemi, S.M. et al.},
-  year={2023}
-  doi = { Sci Rep 13, 9238 (2023). https://doi.org/10.1038/s41598-023-36438-0}
+@Article{Zabihian2023,
+author={Zabihian, Arash
+and Sayyad, Faeze Zakaryapour
+and Hashemi, Seyyed Morteza
+and Shami Tanha, Reza
+and Hooshmand, Mohsen
+and Gharaghani, Sajjad},
+title={DEDTI versus IEDTI: efficient and predictive models of drug-target interactions},
+journal={Scientific Reports},
+year={2023},
+month={Jun},
+day={07},
+volume={13},
+number={1},
+pages={9238},
+issn={2045-2322},
+doi={10.1038/s41598-023-36438-0},
+url={https://doi.org/10.1038/s41598-023-36438-0}
 }
+
 ```
