@@ -13,7 +13,7 @@ This [article](https://doi.org/10.1038/s41598-023-36438-0) proposes two predicti
 We used Python 3.7.14 and CUDA Version: 11.2 in our experiments.
 
 #### Obtain *direct* embeddings
-To obtain direct embeddings you should run command in terminal as follows:
+To obtain direct embeddings you should run the command in the terminal as follows:
 ```bash
 python direct_embeddings.py --data_path data_folder_name
 ```
@@ -26,7 +26,7 @@ Please note that the embeddings will be saved inside your dataset folder.
 
 #### Obtain *indirect* embeddings
 
-Kmeans can be applied considering different numbers as K. If you want to see the result of choosing different numbers as K with details of each clusters' members:
+K-means can be applied considering different numbers as K. If you want to see the result of choosing different numbers as K with details of each cluster's members:
 
 ```bash
 python indirect_embeddings.py --data_path data_folder_name --num_of_protein_clusters n --num_of_drug_clusters m --find_best_k True
